@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <form>
+        <div id="survey">
+          <div class="form-group">
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="name">Pick a favorite food</label>
+            <select class="form-control" id="food">
+              <option value="1">Pizza</option>
+              <option value="2">Brownies</option>
+              <option value="3">Pad Thai</option>
+              <option value="4">Street Tacos</option>
+            </select>
+          </div>
+          <h4>Pick your favorite car:</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="car" value="mustang">
+              Ford Mustang
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="car" value="cherokee">
+              Jeep Cherokee
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="car" value="challenger">
+              Dodge Challenger
+            </label>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" type="submit" name="button">Submit</button>
+      </form>
+
+    </div>
+  </body>
+</html>
